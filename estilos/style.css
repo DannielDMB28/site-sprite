@@ -55,6 +55,16 @@ main {
 .experiencia {
     display: flex;
     justify-content: center;
-    align-items: center;
+
+    
+}
+
+.ex-ft {
+    background-color: white;
+}
+
+.ex-tx {
+    display: flex;
     flex-direction: column;
+    
 }
