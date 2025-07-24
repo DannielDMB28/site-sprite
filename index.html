@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Site Sprite</title>
-</head>
+</head> 
 <body>
     <header>
-        <img src="imagem/sprite_logo.webp" alt="logo sprite">
+        <img src="imagem/sprite_logo.webp" alt="logo sprite" class="spite" width="130">
         <div>
-            <button>Registre-se</button>
+            <button class="bt-r">Registre-se</button>
         </div>
     </header>
     <main>
-        <div>
-            <img src="imagem/sprite-lemon.webp" alt="foto do sprite de lemon">
+        <div class="img-lemon">
+            <img src="imagem/sprite-lemon.webp" alt="foto do sprite de lemon" width="1100">
         </div>
 
-         <h1>Experiência</h1>
+         <h1 id="h1">Experiência</h1>
         <section class="experiencia">
            
             <div>
-                <img src="imagem/spriet-refresque.webp" alt="imagme sprite refresque">
+                <img src="imagem/spriet-refresque.webp" alt="imagme sprite refresque" width="1700">
                 <h2>Refresque-se com Sprite</h2>
                 <p>Em casa ou na rua, calor pode ser sufocante.</p>
                 <a href="#">Saiba Mais</a>
             </div>
 
             <div>
-                <img src="imagem/sprite-chuveirao.webp" alt="imagme sprite chuveirao">
+                <img src="imagem/sprite-chuveirao.webp" alt="imagme sprite chuveirao" width="1700">
                 <h2>Encontre um Chuveirão Sprite</h2>
                 <p>Refresque-se fora de casa com o Chuveirão Sprite! Experiência multissensorial neste verão. Registre-se</p>
                 <a href="#">Participar</a>
@@ -40,7 +41,10 @@
             <h1>Complete seus dados para participar das experiências com Sprite</h1>
             <p>Refresque-se com Sprite!</p>
             <p>Os campos marcados com asterisco (*) são obrigatórios.</p>
-            <form action="#"></form>
+            <form action="#">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" nome="name">
+            </form>
         </section>
 
         <H1>Conheça o mundo da leveza e refrescâmcia</H1>
@@ -66,7 +70,7 @@
             </div>
 
             <div>
-                <img src="imagem/sprite-lemon.webp" alt="">
+                <img src="imagem/spriet-lemon-flash.webp" alt="">
                 <div>
                     <h2>Sprite Lemon Fresh</h2>
                     <p>Refrigerante de limão de baixa caloria levemente gaseificado</p>
